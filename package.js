@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
-	'phantomjs': '1.9.9'
+    'phantomjs-prebuilt': '2.1.7'
 });
 
 Package.onUse(function(api) {
